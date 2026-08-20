@@ -1,9 +1,3 @@
-This is the perfect final step. A repository without a README is just a folder of code; a repository with a meticulously written README is a professional portfolio piece.
-
-When hiring managers at enterprise firms look at your GitHub, they spend about 15 seconds deciding if you understand production-level engineering. We need a README that immediately highlights your grasp of system architecture, AI integration, and reliability.
-
-Create a new file in your `backend` folder named **`README.md`** and paste this template inside. I have structured it specifically to highlight the exact backend and machine learning infrastructure skills that stand out for engineering roles.
-
 ```markdown
 # MindGage API Infrastructure
 
