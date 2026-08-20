@@ -27,8 +27,8 @@ The easiest way to run this API is via Docker, which guarantees an identical env
 
 **1. Clone the repository and navigate to the project folder:**
 ```bash
-git clone [https://github.com/BARAAABID/MindGage-Infrastructure.git](https://github.com/BARAAABID/MindGage-Infrastructure.git)
-cd MindGage-Infrastructure/backend
+git clone https://github.com/BARAAABID/MindGage-Infrastructure.git
+cd MindGage-Infrastructure
 ```
 
 **2. Configure your environment variables:**
