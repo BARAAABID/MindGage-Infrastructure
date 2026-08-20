@@ -50,12 +50,3 @@ pytest
 Baraa Abid
 
 Computer Engineering Graduate | Backend & AI Engineering
-
-### How to update this on GitHub:
-Since you already pushed the old version to GitHub, the easiest way to fix it is to do it right on the website:
-1. Go to your repository on GitHub.
-2. Click on the `README.md` file.
-3. Click the little **pencil icon** ✏️ in the top right corner of the file to edit it.
-4. Delete everything, paste the clean version above, and click the green **Commit changes** button. 
-
-<FollowUp label="Want to update your resume bullets?" query="Can we write the exact bullet points I should use on my resume to describe this MindGage infrastructure project?"/>
