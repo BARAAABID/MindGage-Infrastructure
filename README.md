@@ -29,24 +29,32 @@ The easiest way to run this API is via Docker, which guarantees an identical env
 ```bash
 git clone [https://github.com/BARAAABID/MindGage-Infrastructure.git](https://github.com/BARAAABID/MindGage-Infrastructure.git)
 cd MindGage-Infrastructure/backend
+```
 
-2. Configure your environment variables:
-Create a .env file in the root directory and add your Gemini API key:
+**2. Configure your environment variables:**
+Create a `.env` file in the root directory and add your Gemini API key:
+```env
 GEMINI_API_KEY=your_actual_api_key_here
+```
 
-3. Build and run the container:
+**3. Build and run the container:**
+```bash
 docker build -t mindgage-api .
 docker run -d --name mindgage-server -p 8000:8000 --env-file .env mindgage-api
+```
 
-4. Access the API Documentation:
-Open your browser and navigate to http://localhost:8000/docs to view the interactive Swagger UI.
+**4. Access the API Documentation:**
+Open your browser and navigate to `http://localhost:8000/docs` to view the interactive Swagger UI.
 
-🧪 Running Automated Tests
+## 🧪 Running Automated Tests
+
 To verify the structural integrity of the API and database constraints, run the Pytest suite locally:
+
+```bash
 pip install -r requirements.txt
 pytest
+```
 
-👤 Author
-Baraa Abid
-
+## 👤 Author
+**Baraa Abid**  
 Computer Engineering Graduate | Backend & AI Engineering
