@@ -1,4 +1,3 @@
-```markdown
 # MindGage API Infrastructure
 
 A production-ready FastAPI backend designed to ingest, validate, and synthesize human physiological metrics and cognitive load data using Google's Gemini AI. 
@@ -28,53 +27,35 @@ The easiest way to run this API is via Docker, which guarantees an identical env
 
 **1. Clone the repository and navigate to the backend folder:**
 ```bash
-git clone [https://github.com/YourUsername/MindGage-Infrastructure.git](https://github.com/YourUsername/MindGage-Infrastructure.git)
+git clone [https://github.com/BARAAABID/MindGage-Infrastructure.git](https://github.com/BARAAABID/MindGage-Infrastructure.git)
 cd MindGage-Infrastructure/backend
 
-```
-
-**2. Configure your environment variables:**
-Create a `.env` file in the root directory and add your Gemini API key:
-
-```env
+2. Configure your environment variables:
+Create a .env file in the root directory and add your Gemini API key:
 GEMINI_API_KEY=your_actual_api_key_here
 
-```
-
-**3. Build and run the container:**
-
-```bash
+3. Build and run the container:
 docker build -t mindgage-api .
 docker run -d --name mindgage-server -p 8000:8000 --env-file .env mindgage-api
 
-```
+4. Access the API Documentation:
+Open your browser and navigate to http://localhost:8000/docs to view the interactive Swagger UI.
 
-**4. Access the API Documentation:**
-Open your browser and navigate to `http://localhost:8000/docs` to view the interactive Swagger UI.
-
-## 🧪 Running Automated Tests
-
+🧪 Running Automated Tests
 To verify the structural integrity of the API and database constraints, run the Pytest suite locally:
-
-```bash
 pip install -r requirements.txt
 pytest
 
-```
-
-## 👤 Author
-
-**Baraa Abid**
+👤 Author
+Baraa Abid
 
 Computer Engineering Graduate | Backend & AI Engineering
 
-```
+### How to update this on GitHub:
+Since you already pushed the old version to GitHub, the easiest way to fix it is to do it right on the website:
+1. Go to your repository on GitHub.
+2. Click on the `README.md` file.
+3. Click the little **pencil icon** ✏️ in the top right corner of the file to edit it.
+4. Delete everything, paste the clean version above, and click the green **Commit changes** button. 
 
-### The Final Step
-Make sure to replace `YourUsername` in the Git clone link with your actual GitHub username once you upload it. 
-
-You now have a robust, tested, and containerized backend system ready to be showcased. 
-
-<FollowUp label="Want help pushing this to GitHub?" query="Walk me through the exact terminal commands to initialize git and push this code to a new GitHub repository."/>
-
-```
+<FollowUp label="Want to update your resume bullets?" query="Can we write the exact bullet points I should use on my resume to describe this MindGage infrastructure project?"/>
